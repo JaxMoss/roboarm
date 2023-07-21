@@ -1,5 +1,5 @@
 # User-Controlled Robot Arm
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+I constructed a robotic arm capable of being both controlled by a phone with bluetooth or ran automatically on a Raspberry Pi. The orginal design fo rthe arm was to run it with Arduino, however, I chose to transfer to a Raspberry Pi to allow for more complex automation. I spent multiple days conducting research on how to utilize a Pi with servos and code it in Python. 
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -14,17 +14,11 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 ![Headstone Image](logo.svg)
   
-<!---# Final Milestone
+# Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dA2eTj6e8Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE-->
+To finalize my project, I disconnected the servos from the Arduino, instead directing them into a breadboard that led to a Raspberry Pi. I also connected a 7 inch lcd screen directly into the Pi. As I had not worked with servos in conjunction with a Pi before, I spent multiple days reading recources on how servos are controlled, how they are connected to a Pi, and how to program them in Python. Then following a guide online, I created loops in Python for each servo to run on. Because the project now has a more capable setup in the Raspberry Pi, I plan to use image recognition and a Pi camera to program the arm to mimic the movement of a human arm in front of it.
 
 
 
@@ -47,7 +41,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
+```Python
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
