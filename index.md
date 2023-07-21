@@ -42,16 +42,23 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```Python
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+from gpiozero import AngularServo
+from time import sleep
 
-void loop() {
-  // put your main code here, to run repeatedly:
+servo = AngularServo(3, min_pulse_width=0.0006, max_pulse_width=0.0023)
+servo2 = AngularServo(2, min_pulse_width=0.0006, max_pulse_width=0.0023)
+servo3 = AngularServo(4, min_pulse_width=0.0006, max_pulse_width=0.0023)
+servo4 = AngularServo(5, min_pulse_width=0.0006, max_pulse_width=0.0023)
 
-}
+while (True):
+    servo.angle = -45
+    sleep(1)
+    servo.angle = 0
+    sleep(1)
+    servo2.angle = -45
+    sleep(1)
+    servo2.angle = 0
+    sleep(1)
 ```
 
 # Bill of Materials
