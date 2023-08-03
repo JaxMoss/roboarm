@@ -27,7 +27,7 @@ For my second milestone, I finished the functionality included in the kit by ena
   
 # Third Milestone - Arm on Pi
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dA2eTj6e8Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5yEJCYnlMCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 To finalize the first half of my project, I disconnected the servos from the Arduino, instead directing them into a breadboard that led to a Raspberry Pi. I also connected a 7 inch lcd screen directly into the Pi. As I had not worked with servos in conjunction with a Pi before, I spent multiple days reading recources on how servos are controlled, how they are connected to a Pi, and how to program them in Python. Then following a guide online, I created loops in Python for each servo to run on. Because the project now has a more capable setup in the Raspberry Pi, I plan to use image recognition and a Pi camera to program the arm to mimic the movement of a human arm in front of it.
 
