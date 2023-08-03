@@ -50,8 +50,8 @@ To finalize the first half of my project, I disconnected the servos from the Ard
 
 To finalize the first half of my project, I disconnected the servos from the Arduino, instead directing them into a breadboard that led to a Raspberry Pi. I also connected a 7 inch lcd screen directly into the Pi. As I had not worked with servos in conjunction with a Pi before, I spent multiple days reading recources on how servos are controlled, how they are connected to a Pi, and how to program them in Python. Then following a guide online, I created loops in Python for each servo to run on. Because the project now has a more capable setup in the Raspberry Pi, I plan to use image recognition and a Pi camera to program the arm to mimic the movement of a human arm in front of it.
 
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+<!---# Schematics 
+Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 
 # Code
 
