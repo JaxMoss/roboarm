@@ -1,4 +1,4 @@
-# User-Controlled Robot Arm
+# Hand-Controlled Robotic Arm
 I constructed a robotic arm capable of being both controlled by a phone with bluetooth or ran automatically on a Raspberry Pi. The orginal design for the arm was to run it with Arduino, however, I chose to transfer to a Raspberry Pi to allow for more complex automation. I spent multiple days conducting research on how to utilize a Pi with servos and code it in Python. Then, I used image recognition with Tensorflow and OpenCV to control the arm through movements of my hand.
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
