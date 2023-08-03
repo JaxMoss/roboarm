@@ -1,5 +1,5 @@
 # User-Controlled Robot Arm
-I constructed a robotic arm capable of being both controlled by a phone with bluetooth or ran automatically on a Raspberry Pi. The orginal design fo rthe arm was to run it with Arduino, however, I chose to transfer to a Raspberry Pi to allow for more complex automation. I spent multiple days conducting research on how to utilize a Pi with servos and code it in Python. 
+I constructed a robotic arm capable of being both controlled by a phone with bluetooth or ran automatically on a Raspberry Pi. The orginal design for the arm was to run it with Arduino, however, I chose to transfer to a Raspberry Pi to allow for more complex automation. I spent multiple days conducting research on how to utilize a Pi with servos and code it in Python. Then, I used image recognition with Tensorflow and OpenCV to control the arm through movements of my hand.
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -13,23 +13,42 @@ I constructed a robotic arm capable of being both controlled by a phone with blu
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
-  
-# Final Milestone
+
+# Final Milestone - Arm Moved By Hand
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dA2eTj6e8Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-To finalize my project, I disconnected the servos from the Arduino, instead directing them into a breadboard that led to a Raspberry Pi. I also connected a 7 inch lcd screen directly into the Pi. As I had not worked with servos in conjunction with a Pi before, I spent multiple days reading recources on how servos are controlled, how they are connected to a Pi, and how to program them in Python. Then following a guide online, I created loops in Python for each servo to run on. Because the project now has a more capable setup in the Raspberry Pi, I plan to use image recognition and a Pi camera to program the arm to mimic the movement of a human arm in front of it.
+To finalize the first half of my project, I disconnected the servos from the Arduino, instead directing them into a breadboard that led to a Raspberry Pi. I also connected a 7 inch lcd screen directly into the Pi. As I had not worked with servos in conjunction with a Pi before, I spent multiple days reading recources on how servos are controlled, how they are connected to a Pi, and how to program them in Python. Then following a guide online, I created loops in Python for each servo to run on. Because the project now has a more capable setup in the Raspberry Pi, I plan to use image recognition and a Pi camera to program the arm to mimic the movement of a human arm in front of it.
+
+# Fifth Milestone - Image Recognition
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dA2eTj6e8Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+To finalize the first half of my project, I disconnected the servos from the Arduino, instead directing them into a breadboard that led to a Raspberry Pi. I also connected a 7 inch lcd screen directly into the Pi. As I had not worked with servos in conjunction with a Pi before, I spent multiple days reading recources on how servos are controlled, how they are connected to a Pi, and how to program them in Python. Then following a guide online, I created loops in Python for each servo to run on. Because the project now has a more capable setup in the Raspberry Pi, I plan to use image recognition and a Pi camera to program the arm to mimic the movement of a human arm in front of it.
+
+# Fourth Milestone - Camera
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dA2eTj6e8Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+To finalize the first half of my project, I disconnected the servos from the Arduino, instead directing them into a breadboard that led to a Raspberry Pi. I also connected a 7 inch lcd screen directly into the Pi. As I had not worked with servos in conjunction with a Pi before, I spent multiple days reading recources on how servos are controlled, how they are connected to a Pi, and how to program them in Python. Then following a guide online, I created loops in Python for each servo to run on. Because the project now has a more capable setup in the Raspberry Pi, I plan to use image recognition and a Pi camera to program the arm to mimic the movement of a human arm in front of it.
+
+  
+# Third Milestone - Arm on Pi
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dA2eTj6e8Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+To finalize the first half of my project, I disconnected the servos from the Arduino, instead directing them into a breadboard that led to a Raspberry Pi. I also connected a 7 inch lcd screen directly into the Pi. As I had not worked with servos in conjunction with a Pi before, I spent multiple days reading recources on how servos are controlled, how they are connected to a Pi, and how to program them in Python. Then following a guide online, I created loops in Python for each servo to run on. Because the project now has a more capable setup in the Raspberry Pi, I plan to use image recognition and a Pi camera to program the arm to mimic the movement of a human arm in front of it.
 
 
 
-# Second Milestone
+# Second Milestone - Arm with Bluetooth
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my second milestone, I finished the functionality included in the kit by enabling the Bluetooth module and allowing the arm to be controlled by Bluetooth via an app on my phone. The Bluetooth module connects directly into the Arduino board and then connects to the phone and the app recognizes it from there. The preloaded code then translates each instruction from the app back into servo movement. The main challenge in this milestone was getting Bluetooth to connect properly as we had to order a new Android phone in order to properly use the app. Once that had arrived, the Bluetooth was up and running quickly! For my final milestone, I plan to transition the arm to run on a Raspberry Pi rather than Arduino so I can further experiment with the functionality of the arm next session!
 
 
-# First Milestone
+# First Milestone - Arm Built
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bEWdnR8CKhA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 For my first milestone, I chose to complete the entire construction of the arm, including enabling servo movement. The main components of the project are the arduino board and shield, the acrylic pieces and screws, and the servos. The board connects via usb to a power source or a computer. The servos then connect to that board and are told how to move through the arduino IDE. The acrylic pieces are screwed into each servo and move accordingly. Some challenges I faced were the fragility of the acrylics and dexterity required for the nuts. It required a lot of patience and attention to detail. In the future, I plan to add modifications connecting an external sensor that will move the robotic arm according to my own arm movements. 
@@ -39,26 +58,102 @@ For my first milestone, I chose to complete the entire construction of the arm, 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```Python
-from gpiozero import AngularServo
-from time import sleep
+import cv2
+import mediapipe as mp
+import time
+import threading
+import numpy as np
+from adafruit_servokit import ServoKit
 
-servo = AngularServo(3, min_pulse_width=0.0006, max_pulse_width=0.0023)
-servo2 = AngularServo(2, min_pulse_width=0.0006, max_pulse_width=0.0023)
-servo3 = AngularServo(4, min_pulse_width=0.0006, max_pulse_width=0.0023)
-servo4 = AngularServo(5, min_pulse_width=0.0006, max_pulse_width=0.0023)
+kit = ServoKit(channels=16)
 
-while (True):
-    servo.angle = -45
-    sleep(1)
-    servo.angle = 0
-    sleep(1)
-    servo2.angle = -45
-    sleep(1)
-    servo2.angle = 0
-    sleep(1)
+kit.servo[0].angle = 90
+kit.servo[3].angle = 90
+kit.servo[4].angle = 90
+kit.servo[8].angle = 90
+
+pos0 = 90
+pos3 = 90
+pos4 = 90
+
+spd = 10
+
+def sqr(num):
+    return num * num
+
+def control_servos(lmlist):
+    global pos4, pos3
+
+    if len(lmlist) != 0:
+        lmlist_np = np.array(lmlist)
+        cx0, cy0 = lmlist_np[0, 1:]
+        cx4, cy4 = lmlist_np[4, 1:]
+        cx8, cy8 = lmlist_np[8, 1:]
+
+        # Calculate distance between index finger and pinky finger
+        distance = np.sqrt(sqr(cx4 - cx8) + sqr(cy4 - cy8))
+
+        if distance < 22:
+            kit.servo[0].angle = 20
+        if distance > 50:
+            kit.servo[0].angle = 90
+
+        pos4 = (cy0 - 500) / 3 * -1
+        kit.servo[4].angle = pos4
+
+        pos3 = cx0 / 3.5
+        kit.servo[3].angle = pos3
+
+        print(pos4)
+
+def main():
+    global pTime
+    cap = cv2.VideoCapture(0)
+
+    # Set camera resolution to reduce computational load
+    cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+    cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+
+    detector = mp.solutions.hands.Hands(
+        min_detection_confidence=0.5, min_tracking_confidence=0.5, static_image_mode=False, max_num_hands=1
+    )
+
+    while True:
+        success, img = cap.read()
+
+        imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+        results = detector.process(imgRGB)
+
+        lmlist = []
+        if results.multi_hand_landmarks:
+            for handLms in results.multi_hand_landmarks:
+                for id, lm in enumerate(handLms.landmark):
+                    h, w, c = img.shape
+                    cx, cy = int(lm.x * w), int(lm.y * h)
+                    lmlist.append([id, cx, cy])
+                    cv2.circle(img, (cx, cy), 3, (255, 0, 255), cv2.FILLED)
+
+        # Control servos based on hand landmarks
+        t1 = threading.Thread(target=control_servos, args=(lmlist,))
+        t1.start()
+        t1.join()
+
+        cTime = time.time()
+        fps = 1 / (cTime - pTime)
+        pTime = cTime
+
+        cv2.putText(img, str(int(fps)), (10, 70), cv2.FONT_HERSHEY_PLAIN, 3, (255, 0, 255), 3)
+
+        cv2.imshow("Image", img)
+        cv2.waitKey(1)
+
+if __name__ == "__main__":
+    pTime = 0
+    main()
+
+```
 ```
 
 # Bill of Materials
