@@ -21,7 +21,7 @@ For my first milestone, I chose to complete the entire construction of the arm, 
 
 # Second Milestone - Arm with Bluetooth
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dA2eTj6e8Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For my second milestone, I finished the functionality included in the kit by enabling the Bluetooth module and allowing the arm to be controlled by Bluetooth via an app on my phone. The Bluetooth module connects directly into the Arduino board and then connects to the phone and the app recognizes it from there. The preloaded code then translates each instruction from the app back into servo movement. The main challenge in this milestone was getting Bluetooth to connect properly as we had to order a new Android phone in order to properly use the app. Once that had arrived, the Bluetooth was up and running quickly! For my final milestone, I plan to transition the arm to run on a Raspberry Pi rather than Arduino so I can further experiment with the functionality of the arm next session!
   
