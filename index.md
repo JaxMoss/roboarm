@@ -36,7 +36,7 @@ I constructed a robotic arm capable of being both controlled by a phone with blu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dA2eTj6e8Xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<t> Moving on to the programming aspect of my project, I was first tasked with setting up a camera so I can begin my image recognition work. I first downloaded all the depenedencies I would need to use Tensorflow and OpenCV on my Pi. Unfortunately, once I had enabled the Pi camera and installed dependencies, I ran into low current issues. To solve this, I ordered a powered USB hub to provide extra current to the camera. This fixed the problem and the computer vision was up and running swiftly. 
+<t> Moving on to the programming aspect of my project, I was first tasked with setting up a camera so I can begin my image recognition work. I first downloaded all the depenedencies I would need to use Tensorflow and OpenCV on my Pi. Unfortunately, once I had enabled the Pi camera and installed dependencies, I ran into low current issues. To solve this, I ordered a powered USB hub to provide extra current to the camera. This fixed the problem and the computer vision was up and running swiftly. </t>
 
 # Fifth Milestone - Image Recognition
 
